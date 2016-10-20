@@ -176,7 +176,7 @@ HTML5 Time polyfill | Jonathan Stipe | https://github.com/jonstipe/time-polyfill
       $timeField.attr 'class', className if className?
       $timeField.attr 'style', style if style?
       $this.replaceWith hiddenField
-      $timeField.insertAfter hiddenField
+      $timeField.insertBefore hiddenField
 
       halfHeight = ($timeField.outerHeight() / 2) + 'px'
       upBtn = document.createElement 'div'

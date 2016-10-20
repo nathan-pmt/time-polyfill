@@ -241,7 +241,7 @@ HTML5 Time polyfill | Jonathan Stipe | https://github.com/jonstipe/time-polyfill
           $timeField.attr('style', style);
         }
         $this.replaceWith(hiddenField);
-        $timeField.insertAfter(hiddenField);
+        $timeField.insertBefore(hiddenField);
         halfHeight = ($timeField.outerHeight() / 2) + 'px';
         upBtn = document.createElement('div');
         $(upBtn).addClass('time-spin-btn time-spin-btn-up').css('height', halfHeight);
